@@ -87,6 +87,7 @@ body{
     display: inline-block;
     padding: 12px 24px;
     font-family: inherit;
+    cursor: pointer;
 }
 .button.primary{
     color: var(--primary-acent-color);
@@ -132,7 +133,6 @@ body{
 }
 
 .features{
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -161,7 +161,6 @@ letter-spacing: 0.03em;
 }
 
 .team-job{
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
@@ -196,7 +195,37 @@ letter-spacing: 0.03em;
 
 /* Button-portfolio */
 
-/* Portfolio ditales */
+.button{
+    color: var(--section-titel-color);
+    background-color: var(--hero-titel-color);
+    display: inline-block;
+    padding: 12px 24px;
+    font-family: inherit;
+    cursor: pointer;
+}
+.button.primary{
+    color: var(--primary-acent-color);
+    background-color: var(--hero-titel-color);
+}
+.button.secondary{
+    color: var(--hero-titel-color);
+    background-color: var(--primary-acent-color);
+    border: 2px;
+    border-radius: 4px;
+    border-color: var(--primary-acent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus{
+    color: var(--section-titel-color);
+    background-color: #F5F4FA;
+    border-color: #F5F4FA;;
+}
+/* Portfolio ditalies */
 
 .portfolio-titel{
     font-weight: 700;
@@ -207,7 +236,6 @@ letter-spacing: 0.03em;
 }
 
 .portfolio-descr{
-     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
