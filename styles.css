@@ -1,6 +1,26 @@
 /* Roboto 900 700 500 400 */
 /* Raleway 700 */
 
+/* Test online lection Begin */
+*{
+    outline: 2px solid green;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,ul,p{
+    margin: 0;
+}
+ul{
+    padding-left: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+/* Test online lection END */
 :root{
 --primary-acent-color:#2196F3;
 --title-test-color:  #757575;
